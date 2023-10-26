@@ -27,21 +27,32 @@ const ToDoForm = (props) => {
    
 
       <Navbar.Collapse id="navbarScroll" className="" >
-       
-        <Form onSubmit={handleClick} >
-          <Form.Control
+      <div className={style.container}>
+      <h5>Add new task</h5>
+      <div >
+      <Form onSubmit={handleClick} className={style.containerAdd} >
+
+     
+
+         
+            <Form.Control
             type="search"
-            placeholder="add to do..."
-            className={`me-2 ${ style.add}`}
+            placeholder="Enter a new task"
+            className={style.add}
           
           onChange={handleChange}
           value={text}
             
-           
+          
             
           />
-          <button className={style.btnAdd} onClick={handleClick}>Add</button>
-        </Form>
+          <button className={style.btnAdd} onClick={handleClick}>+</button>
+    
+        
+      </Form>
+      </div>
+      </div>
+      
       </Navbar.Collapse>
 
    

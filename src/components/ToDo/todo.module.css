@@ -1,38 +1,66 @@
 .todo{
-   
-    padding: 7px 10px;
-font-size: 16px;
- background-color: rgb(241, 241, 241);
-    border-radius: 10px;
-    width:85% ; 
-    margin-right: 10px;
+    line-height: 1.5em;
+    padding:  0em  .2em;
+    letter-spacing: .06rem;
+    text-transform: capitalize;
+    
+    font-size: 1rem;
+    font-weight: 400;
+    /* background-color: rgb(241, 241, 241); */
+    border-radius: .1rem ;
+   width: 29.7em;
+    /* margin-right: 10px; */
     color: black;
+    float: left;
+   margin-top: .3em;
+    
 }
 
-.todoContainer{
-    display: flex;
-    flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  /* background-color: rgb(138, 81, 7); */
- padding: 10px 0px;
- font-family: "Almarai", sans-serif;
-margin-top: 10px;
+@media screen and (max-width: 768px){
+    .todoContainer{
+        width: 20em;
+       
+    }
+
+    
+    .todo .deleteBtn{
+    
+   margin-left: 14em;
+ float: none;
+
+
+
 }
+}
+.todoContainer{
+ 
+  /* background-color: rgb(138, 81, 7); */
+  padding: 0em .8em ;
+ font-family: "Almarai", sans-serif;
+/* margin-top: 1.2em; */
+}
+
 
 .deleteBtn{
-    background-color: red;
-    color: white;
+     background-color: #dc3545; 
+    float: right;
+    margin-right: -.5em;
+    color: #fff;
     border: none;
-    font-size: 18px;
+    font-size: 1.2em;
     outline: none;
-    border-radius: 5px;
-    padding: 5px 10px ;
+    border-radius: .1em;
+    padding: .4em .7em ;
+  margin-bottom: .5em;
+  font-weight: bold;
+  cursor: pointer;
     /* margin-right: 10px;
     margin-top: 14px; */
+    transition: all 0.2s ease-in-out;
 }
 
 
 .deleteBtn:hover{
-    background-color: rgb(166, 0, 0);
+    background-color: transparent;
+    color: #dc3545;
 }

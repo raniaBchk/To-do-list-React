@@ -84,35 +84,39 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <ToDoForm addToDo={addToDo}/>
       <Container className='container'>
-        <ToDoForm addToDo={addToDo}/>
-          <div className='btn-style'>
+        <h5>To do list</h5>
+          <div className='btn-style '>
+          
           <button className={activeButton === 'all' ? 'btn btn-active' : 'btn'}
           onClick={() => {
             setActiveButton('all');
             updateTodoToShow('all');
-          }}>all</button>
+          }}>All</button>
 
 
           <button  className={activeButton === 'active' ? 'btn btn-active' : 'btn'}
           onClick={() => {
             setActiveButton('active');
             updateTodoToShow('active');
-          }}>active</button>
+          }}>To Do</button>
           <button className={activeButton === 'complete' ? 'btn btn-active' : 'btn'}
           onClick={() => {
             setActiveButton('complete');
             updateTodoToShow('complete');
-          }}>complete</button>
-          <br/>
-          <div className='btn-style-big'>
+          }}>Done</button>
+          
+
+          <button className='btn btn-big' onClick={toggleAll}>Toggle all done</button>
+         
 
           {todos.some((todo)=>todo.complete)? (
-            <button className='btn btn-big' onClick={removeAll}>Remove all complete</button>
+            <button className='btn btn-big' onClick={removeAll}>Remove all done</button>
           ): null}
    
-          <button className='btn btn-big' onClick={toggleAll}>Toggle all complete: {`${toggleAllComplete}`}</button>
-          </div>
+         
+          
        
           </div>
           {
