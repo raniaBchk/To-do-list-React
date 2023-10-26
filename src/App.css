@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+.container{
+  /* background-color: rgb(250, 151, 21); */
+  margin-bottom: 15%;
+  padding: 10px 0px;
+  height: 50px;
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +42,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-style{
+  margin-top: 10px;
+}
+.btn {
+  padding: 10px 0px;
+  width: 100px;
+  color: #282c34;
+  border-radius: 10px;
+  background: hsla(0, 0%, 96%, 0.85);
+  outline: none;
+  border: none;
+  font-family: "Almarai", sans-serif;
+  margin: 0px 5px;
+}
+
+.btn:hover {
+  color: white;
+  border-radius: 3px solid white;
+  background-color: #909296;
+
+}
+
+.btn-active {
+  background-color: #61dafb;
+  color: white;
+}
+
+.btn-active:hover {
+  background-color: #61dafb;
+}
+
+.btn-style-big{
+  margin-top: 10px;
+}
+
+.btn-big{
+  width: 150px;
 }

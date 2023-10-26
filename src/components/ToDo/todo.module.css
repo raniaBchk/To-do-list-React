@@ -1,0 +1,38 @@
+.todo{
+   
+    padding: 7px 10px;
+font-size: 16px;
+ background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    width:85% ; 
+    margin-right: 10px;
+    color: black;
+}
+
+.todoContainer{
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(138, 81, 7); */
+ padding: 10px 0px;
+ font-family: "Almarai", sans-serif;
+margin-top: 10px;
+}
+
+.deleteBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px ;
+    /* margin-right: 10px;
+    margin-top: 14px; */
+}
+
+
+.deleteBtn:hover{
+    background-color: rgb(166, 0, 0);
+}

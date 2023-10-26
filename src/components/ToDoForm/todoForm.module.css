@@ -1,0 +1,40 @@
+.add{
+  background: hsla(0, 0%, 96%, 0.85);
+  outline: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 0%;
+  width:300px ;
+  font-family: "Almarai", sans-serif;
+}
+
+
+
+
+.div button:hover {
+    color: white;
+    border: none;
+    background-color: #282c34; 
+  }
+  
+  
+  .btnAdd {
+    padding: 15px 35px;
+    color: #282c34;
+    border-radius: 10px;
+    background: hsla(0, 0%, 96%, 0.85);
+    outline: none;
+    border: none;
+    font-family: "Almarai", sans-serif;
+  
+  }
+  .btnAdd:hover {
+    color: white;
+    border-radius: 3px solid white;
+    background-color: #343943;
+    
+  }
+  
+
