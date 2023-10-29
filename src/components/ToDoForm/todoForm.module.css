@@ -86,7 +86,7 @@ margin-top: -1.5em;
     }
   
     .container{
-    
+  
       margin-top: 2em;
     margin-left: 2em;
     
@@ -94,3 +94,15 @@ margin-top: -1.5em;
     
     
   }
+
+
+  
+@media screen and (max-width: 768px){
+  .container{
+      width: 22em;
+     background-color: #28a745; 
+      max-width: 22em;
+    
+     
+  }
+}

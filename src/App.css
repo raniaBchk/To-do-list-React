@@ -161,10 +161,10 @@ background-color: #fff;
 @media screen and (max-width: 768px){
   .container{
       width: 22em;
-     
-      max-width: 22.8em;
+      background-color: #61dafb;
+      max-width: 22em;
       display: block;
-      margin-right: 2em;
+      margin-right: 3em;
       margin-top: 2em;
      
   }
