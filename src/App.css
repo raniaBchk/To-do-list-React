@@ -159,18 +159,26 @@ background-color: #fff;
 
 
 @media screen and (max-width: 768px){
-  body{
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* body{
     margin: 0 auto;
     max-width: 1920px;
     width: 90%;
     padding: 2em 3em;
-  }
+  } */
   .container{
       width: 22em;
       background-color: #61dafb;
       max-width: 22em;
       display: block;
-      margin-right: 0em;
+    margin: 0 auto;
       margin-top: 2em;
      
   }
@@ -179,4 +187,27 @@ background-color: #fff;
     
     width: 3.5em;
   }
+}
+
+
+@media (min-width:769px) and (max-width: 991px){
+
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+  width: 22em;
+  background-color: #61dafb;
+  max-width: 22em;
+  display: block;
+margin: 0 auto;
+  margin-top: 2em;
+ 
+}
 }
