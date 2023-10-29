@@ -60,9 +60,7 @@ body{
   color: white; */
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 .container{
   background-color: rgb(246, 243, 255);
@@ -120,7 +118,7 @@ background-color: #fff;
   line-height: 1.2em;
   width: 5.4em;
   color: rgb(9, 9, 9);
-  font-size: .9rem;
+  font-size: .8rem;
   font-weight: 400;
   text-transform: capitalize;
   border-radius: .25rem ;
@@ -175,17 +173,12 @@ background-color: #fff;
   } */
   .container{
       width: 22em;
-      background-color: #61dafb;
+      /* background-color: #61dafb; */
       max-width: 22em;
       display: block;
     margin: 0 auto;
       margin-top: 2em;
      
-  }
-
-  .btn {
-    
-    width: 3.5em;
   }
 }
 
@@ -203,7 +196,7 @@ background-color: #fff;
 
 .container{
   width: 22em;
-  background-color: #61dafb;
+  /* background-color: #61dafb; */
   max-width: 22em;
   display: block;
 margin: 0 auto;
