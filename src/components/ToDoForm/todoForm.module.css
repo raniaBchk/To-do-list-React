@@ -80,21 +80,6 @@ margin-top: -1.5em;
   }
   
 
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  
-    .container{
-  
-      margin-top: 2em;
-    margin-left: 2em;
-    
-    }
-    
-    
-  }
-
 
   
 @media screen and (max-width: 768px){
@@ -102,14 +87,48 @@ margin-top: -1.5em;
     margin: 0 auto;
     max-width: 1920px;
     width: 90%;
+  position: relative;
   }
   .container{
-      width: 22em;
+      width: 19em;
      /* background-color: #28a745;  */
-      max-width: 22em;
-      float: block;
-      margin-top: 2em;
-    margin-left: 0em;
+    max-width: 19em;
+      /* float: block; */
+      margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 5%;
      
   }
+}
+
+
+
+
+@media (min-width:769px) and (max-width: 991px){
+
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;   */
+    position: relative;
+
+}
+
+.container{
+  width: 22em;
+  /* background-color: #61dafb; */
+  max-width: 22em;
+  display: block;
+  margin: 0 auto;
+  /* margin-top: 10%;
+  margin-left: 30%; */
+  position: absolute;
+  top: 5%;
+  left: 25%;
+ 
+}
 }

@@ -160,9 +160,10 @@ background-color: #fff;
   body, html {
     height: 100%;
     margin: 0;
-    display: flex;
+    position: relative;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
   /* body{
@@ -172,12 +173,15 @@ background-color: #fff;
     padding: 2em 3em;
   } */
   .container{
-      width: 22em;
+      width: 19em;
       /* background-color: #61dafb; */
-      max-width: 22em;
+      max-width: 19em;
       display: block;
     margin: 0 auto;
-      margin-top: 2em;
+    position: absolute;
+    top: 42%;
+    left: 5%;
+      
      
   }
 }
@@ -189,9 +193,11 @@ background-color: #fff;
   body, html {
     height: 100%;
     margin: 0;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   */
+    position: relative;
+
 }
 
 .container{
@@ -199,8 +205,13 @@ background-color: #fff;
   /* background-color: #61dafb; */
   max-width: 22em;
   display: block;
-margin: 0 auto;
-  margin-top: 2em;
+  margin: 0 auto;
+  /* margin-top: 5%;
+  margin-left: 0%; */
+
+  position: absolute;
+  top: 37%;
+  left: 25%;
  
 }
 }
